@@ -1,4 +1,4 @@
-import { currentTrack, getQueue } from '../sonos'
+import { currentTrack, getQueue } from '../services/sonos'
 import { gql } from 'apollo-server-express'
 
 export const typeDefs = gql`

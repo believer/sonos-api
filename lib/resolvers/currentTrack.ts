@@ -1,5 +1,5 @@
 import { gql } from 'apollo-server-express'
-import { currentTrack } from '../sonos'
+import { currentTrack } from '../services/sonos'
 
 export const typeDefs = gql`
   type CurrentTrack implements Track {

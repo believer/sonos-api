@@ -1,5 +1,5 @@
 import { gql } from 'apollo-server-express'
-import { getCurrentState } from '../sonos'
+import { getCurrentState } from '../services/sonos'
 
 export const typeDefs = gql`
   enum PlayerState {
