@@ -1,0 +1,25 @@
+{
+  "name": "sonos-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --no-notify lib/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@iteam/config": "^12.1.0",
+    "@types/lodash.merge": "^4.6.6",
+    "ts-node": "^8.4.1",
+    "ts-node-dev": "^1.0.0-pre.43",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.9.3",
+    "express": "^4.17.1",
+    "lodash.merge": "^4.6.2",
+    "sonos": "^1.12.3"
+  }
+}
