@@ -1,5 +1,5 @@
-import { gql } from 'apollo-server-express'
-import { getCurrentState } from '../services/sonos'
+import { gql } from "apollo-server-express";
+import { getCurrentState } from "../services/sonos";
 
 export const typeDefs = gql`
   enum PlayerState {
@@ -11,10 +11,10 @@ export const typeDefs = gql`
   extend type Query {
     playerState: PlayerState!
   }
-`
+`;
 
 export const resolvers = {
   Query: {
     playerState: () => getCurrentState()
   }
-}
+};
