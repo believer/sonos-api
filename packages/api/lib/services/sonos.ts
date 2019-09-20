@@ -1,9 +1,9 @@
-import { Sonos } from 'sonos'
+import { Sonos } from "sonos";
 
-const device = new Sonos('192.168.0.8')
+const device = new Sonos("192.168.110.175");
 
-export const currentTrack = () => device.currentTrack()
+export const currentTrack = () => device.currentTrack();
 
-export const getQueue = () => device.getQueue()
+export const getQueue = () => device.getQueue();
 
-export const getCurrentState = () => device.getCurrentState()
+export const getCurrentState = () => device.getCurrentState();

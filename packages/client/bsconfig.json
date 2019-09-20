@@ -24,9 +24,9 @@
   "bs-dev-dependencies": [
     "@glennsl/bs-jest",
     "bs-react-testing-library",
-    "bs-jest-dom",
-    "graphql_ppx"
+    "bs-jest-dom"
   ],
+  "ppx-flags": ["graphql_ppx/ppx"],
   "refmt": 3,
   "warnings": {
     "number": "+A-9-40-42-48",

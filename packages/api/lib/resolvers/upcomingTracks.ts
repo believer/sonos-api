@@ -28,6 +28,6 @@ export const resolvers = {
       }
 
       return queue.items.slice(current.queuePosition)
-    }
-  }
+    },
+  },
 }
